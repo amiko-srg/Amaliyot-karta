@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foydalanuvchi joylashuvini aniqlash</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Foydalanuvchi joylashuvini aniqlash</h1>
+    <button class="click">Joylashuvni ko‘rsat</button>
+    <div id="info">
+      <p><strong>Kenglik:</strong> <span class="lat">--</span></p>
+      <p><strong>Uzunlik:</strong> <span class="lon">--</span></p>
+      <p><strong>Mamlakat:</strong> <span class="country">--</span></p>
+      <p><strong>Shahar:</strong> <span class="city">--</span></p>
+      <p><strong>IP Manzil:</strong> <span class="ip">--</span></p>
+      <p><strong>Internet provayder:</strong> <span class="isp">--</span></p>
+    </div>
+    <iframe 
+      class="map" 
+      src="" 
+      width="100%" 
+      height="300" 
+      style="border:0; border-radius: 10px;" 
+      allowfullscreen 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
